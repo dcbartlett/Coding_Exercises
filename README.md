@@ -1,4 +1,4 @@
-# Coding Interview Questions
+# Coding Challenges
 
 The list below are coding challenges you should familiarize yourself with.  These are a great way to learn software engineering principals, and will most likely be used by companies to test your skills.
 
@@ -8,7 +8,7 @@ Each challenge links to it's own folder, which has a README describing the chall
 
 ### Coding Challenge
 
-|1  | [Two Sum](https://leetcode.com/problems/two-sum) |
+|1  | [Two Sum](https://leetcode.com/problems/two-sum) |<br />
 |2  | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) |
 
 
