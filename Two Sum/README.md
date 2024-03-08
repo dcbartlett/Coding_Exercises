@@ -55,5 +55,9 @@ We know that both any given integer and the target will be between `-109` and `1
 We can accomplish this by looping through the integer array we were given.<br>
 If we loop though this once, we will get one of the addends.
 
-Now, we have a choice of how we can get the second addend.<br>
-We can cycle through the array a second type, compare the two addends, 
+Now, we have a choice of how we can get the second addend.
+
+We can cycle through the array a second time, compare the two addends, and return if they add up to the target.
+
+Alternatively, we can use memoization to store previously checked addends and see if any of them are the difference of the current addened and the target.  If they are, we return both addends as the solution.
+

@@ -1,5 +1,6 @@
 /**
- * Runs at o(n^2).
+ * Finds the addends that make up the target
+ * Runs at o(n^2)
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}
@@ -15,7 +16,8 @@ var twoSum = function (nums, target) {
 };
 
 /**
- * Runs at o(n).
+ * Finds the addends that make up the target
+ * Runs at o(n)
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}

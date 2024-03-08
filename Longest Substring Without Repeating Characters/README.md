@@ -44,3 +44,16 @@ We know the string consists of english letters, digits, symbols and spaces<br>
 
 ### How do we tackle this
 
+We store two arrays to memory that will hold the characters that we find as a substring.
+The first will be the currentIncludedCharacters in the substring we are looking at.
+The second will have the value of the currentIncludedCharacters put into it when we find a duplicate character.
+
+We then loop through the characters of the string.
+For each character, we check if it is already in currentIncludedCharacters.
+If it exists in currentIncludedCharacters, we check if previousIncludedCharacters is shorter or the same length.
+If so, then we set the currentIncludedCharacters value to previousIncludedCharacters.
+We then empty currentIncludedCharacters.
+
+Finally before iterating to the next loop iteration, we push the current character into currentIncludedCharacters.
+
+Once all iterations are complete, we can return the length of previousIncludedCharacters, as it will be the longest found substring without duplicates.
