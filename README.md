@@ -7,8 +7,8 @@ Each challenge links to it's own folder, which has a README describing the chall
 Below are a list of completed or current challenges:
 | No. | Challenge |
 | --- | --------- |
-|1    | [Two Sum](Solutions/TWO_SUM.md) |
-|2    | [Longest Substring Without Repeating Characters](Solutions/LONGEST_SUBSTRING_WITHOUT_REPEATING_CHARACTERS.md) |
+|1    | [Two Sum](Solutions/1.%20TWO_SUM.md) |
+|2    | [Longest Substring Without Repeating Characters](Solutions/2.%20LONGEST_SUBSTRING_WITHOUT_REPEATING_CHARACTERS.md) |
 
 ## CREDITS
 
