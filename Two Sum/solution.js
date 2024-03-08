@@ -1,14 +1,14 @@
 /**
  * Finds the addends that make up the target
  * Runs at o(n^2)
- * @param {number[]} nums
+ * @param {number[]} numbers
  * @param {number} target
  * @return {number[]}
  */
-var twoSum = function (nums, target) {
-    for (let x = 0; x < nums.length; x++) {
-        for (let y = 0; y < nums.length; y++) {
-            if (x !== y && target === (nums[x] + nums[y])) {
+var twoSum = function (numbers, target) {
+    for (let x = 0; x < numbers.length; x++) {
+        for (let y = 0; y < numbers.length; y++) {
+            if (x !== y && target === (numbers[x] + numbers[y])) {
                 return [x, y];
             }
         }
@@ -18,20 +18,20 @@ var twoSum = function (nums, target) {
 /**
  * Finds the addends that make up the target
  * Runs at o(n)
- * @param {number[]} nums
+ * @param {number[]} numbers
  * @param {number} target
  * @return {number[]}
  */
-var twoSum = function (nums, target) {
+var twoSum = function (numbers, target) {
     let memory = new Map();
 
-    for (let i=0; i<nums.length; i++) {
-        let difference = target - nums[i];
+    for (let i=0; i<numbers.length; i++) {
+        let difference = target - numbers[i];
 
         if (memory.has(difference)) {
             return [i,memory.get(difference)];
         }
 
-        memory.set(nums[i], i);
+        memory.set(numbers[i], i);
     }
 };

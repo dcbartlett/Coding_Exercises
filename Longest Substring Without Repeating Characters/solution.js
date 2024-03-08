@@ -1,20 +1,24 @@
 /**
- * Find the longest substring without repeating characters
+ * Find the longest substring without repeating characters.
  * Runs at o(n)
- * @param {string} s
+ * @param {string} stringToCheck
  * @return {number}
  */
 var lengthOfLongestSubstring = function(stringToCheck) {
-    let currentIncludedCharacters = [];
     let previousIncludedCharacters = [];
+    let includedCharacters = [];
+
+    if (stringToCheck.length === 0) return 0;
+    if (stringToCheck.length === 1) return 1;
+
     stringToCheck.split('').forEach((character) => {
-        if (currentIncludedCharacters.includes(character)) {
-            if (previousIncludedCharacters.length <= currentIncludedCharacters.length) {
-                previousIncludedCharacters = currentIncludedCharacters;
-                currentIncludedCharacters = [];
+        if (includedCharacters.includes(character)) {
+            if (previousIncludedCharacters.length <= includedCharacters.length) {
+                previousIncludedCharacters = includedCharacters;
+                includedCharacters = [];
             }
         }
-        currentIncludedCharacters.push(character);
+        includedCharacters.push(character);
     });
     return previousIncludedCharacters.length;
 };
