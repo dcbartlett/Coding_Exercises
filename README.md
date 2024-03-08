@@ -9,6 +9,7 @@ Below are a list of completed or current challenges:
 | --- | --------- |
 |1    | [Two Sum](Solutions/1.%20TWO_SUM.md) |
 |2    | [Longest Substring Without Repeating Characters](Solutions/2.%20LONGEST_SUBSTRING_WITHOUT_REPEATING_CHARACTERS.md) |
+|3    | [Plus One](Solutions/3.%20PLUS_ONE.md) |
 
 ## CREDITS
 
