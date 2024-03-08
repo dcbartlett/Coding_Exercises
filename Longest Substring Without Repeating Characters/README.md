@@ -1,8 +1,5 @@
-<div style="position: relative;">
-    <span style="display: inline-block;width: calc(100% - 283px);
-    word-wrap:break-word;"><h1>Longest Substring Without Repeating Characters</h1></span>
-    <span style="display: inline-block;position: absolute;right:0;bottom:0;"><h1>&nbsp;&nbsp;&nbsp;&nbsp;Try it on <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters" target="_blank">LEETCODE</a></h1></span>
-</div>
+## Longest Substring Without Repeating Characters
+## Try it on [LEETCODE](https://leetcode.com/problems/longest-substring-without-repeating-characters)
 
 Given a string **_s_**, find the length of the longest **_substring_** without repeating characters.
 
