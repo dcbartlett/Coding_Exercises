@@ -1,6 +1,7 @@
 <div style="position: relative;">
-    <span><h1>Two Sum</h1></span>
-    <span style="position: absolute;right:0;top:0;"><h1>&nbsp;&nbsp;&nbsp;&nbsp;Try it on <a href="https://leetcode.com/problems/two-sum" target="_blank">LEETCODE</a></h1></span>
+    <span style="display: inline-block;width: calc(100% - 283px);
+    word-wrap:break-word;"><h1>Two Sum</h1></span>
+    <span style="position: absolute;right:0;bottom:0;"><h1>&nbsp;&nbsp;&nbsp;&nbsp;Try it on <a href="https://leetcode.com/problems/two-sum" target="_blank">LEETCODE</a></h1></span>
 </div>
 
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
